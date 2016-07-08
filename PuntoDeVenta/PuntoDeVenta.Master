@@ -14,6 +14,7 @@
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
+        <h1>Hola Mundo!</h1>
     </div>
     </form>
 </body>
