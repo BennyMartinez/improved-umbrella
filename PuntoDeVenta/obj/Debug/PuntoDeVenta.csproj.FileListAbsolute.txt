@@ -1,0 +1,6 @@
+C:\Users\BenignoAdrian\Documents\Visual Studio 2013\Projects\PuntoDeVenta\PuntoDeVenta\bin\PuntoDeVenta.dll.config
+C:\Users\BenignoAdrian\Documents\Visual Studio 2013\Projects\PuntoDeVenta\PuntoDeVenta\bin\PuntoDeVenta.dll
+C:\Users\BenignoAdrian\Documents\Visual Studio 2013\Projects\PuntoDeVenta\PuntoDeVenta\bin\PuntoDeVenta.pdb
+C:\Users\BenignoAdrian\Documents\Visual Studio 2013\Projects\PuntoDeVenta\PuntoDeVenta\obj\Debug\PuntoDeVenta.csprojResolveAssemblyReference.cache
+C:\Users\BenignoAdrian\Documents\Visual Studio 2013\Projects\PuntoDeVenta\PuntoDeVenta\obj\Debug\PuntoDeVenta.dll
+C:\Users\BenignoAdrian\Documents\Visual Studio 2013\Projects\PuntoDeVenta\PuntoDeVenta\obj\Debug\PuntoDeVenta.pdb
