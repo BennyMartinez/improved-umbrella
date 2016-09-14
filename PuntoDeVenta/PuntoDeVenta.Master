@@ -4,23 +4,79 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Punto de venta</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    
+    <link href="css/stylish-portfolio.css" rel="stylesheet" />
+    <link href="Front/css/font-awesome.min.css" rel="stylesheet" />
+   
+    
+
+    <script src="js/bootstrap.js" ></script>
+    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/jquery-3.1.0.min.js" ></script>
+    <script src="js/jquery.js" ></script>
+    <script src="js/Funciones.js"></script>
+
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
+    
+                         <!-- Navigation -->
+                <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle "><i class="fa fa-user"></i></a>
+                <nav id="sidebar-wrapper">
+                    <ul class="sidebar-nav">
+                        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="glyphicon glyphicon-home"></i></a>
+                        <li class="sidebar-brand">
+                            <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
+                        </li>
+                        <li>
+                            <a href="#top" onclick=$("#menu-close").click();>Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" onclick=$("#menu-close").click();>About</a>
+                        </li>
+                        <li>
+                            <a href="#services" onclick=$("#menu-close").click();>Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+     
+
+
+
+    <div class="container">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
-        <h1>Hola Mundo!</h1>
-        <div class="form">
-            <asp:Repeater runat="server">
-
-            </asp:Repeater>
-        </div>
     </div>
-    </form>
+
+    
+
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    </script>
+
 </body>
 </html>
