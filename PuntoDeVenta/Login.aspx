@@ -1,8 +1,13 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PuntoDeVenta.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="PuntoDeVenta.Login" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="PuntoDeVenta.Login" %>
+
 <!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+ <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -34,7 +39,7 @@
                     </div>
                     <div class="form-group text-center">
                           
-                       <asp:Button  runat="server"  CssClass="btn btn-success btn-cancel-action"  Text="Entrar"/>
+                       <asp:Button ID="btnInicio" runat="server"  CssClass="btn btn-success btn-cancel-action"  Text="Entrar" OnClick="_iniciarSesion"/>
                     </div>
                 </form>
             </div>
@@ -46,6 +51,4 @@
    
 </body>
 </html>
-
-</asp:Content>
 
