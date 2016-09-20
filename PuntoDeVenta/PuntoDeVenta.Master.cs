@@ -11,19 +11,7 @@ namespace PuntoDeVenta
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            #region hola mundo
-            try
-            {
-                if(IsPostBack)
-                {
-                    Response.Redirect("Hola Mundo");
-                }
-            }
-            catch(Exception ex)
-            {
-                Response.Write("Error"+ex);
-            }
-            #endregion
+         
         }
     }
 }

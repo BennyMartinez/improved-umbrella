@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -68,6 +69,7 @@
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+
     <Content Include="css\elegant-icons-style.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\fullcalendar.css" />
@@ -76,6 +78,7 @@
     <Content Include="css\owl.carousel.css" />
     <Content Include="css\style-responsive.css" />
     <Content Include="css\style.css" />
+    <Content Include="css\Login.css" />
     <Content Include="css\stylish-portfolio.css" />
     <Content Include="css\widgets.css" />
     <Content Include="css\xcharts.min.css" />
@@ -98,6 +101,7 @@
     <Content Include="js\jquery.autosize.min.js" />
     <Content Include="js\jquery.js" />
     <Content Include="js\jquery.min.js" />
+
     <Content Include="js\jquery.nicescroll.js" />
     <Content Include="js\jquery.placeholder.min.js" />
     <Content Include="js\jquery.rateit.min.js" />
@@ -109,6 +113,8 @@
     <Content Include="js\sparkline-chart.js" />
     <Content Include="js\sparklines.js" />
     <Content Include="js\xcharts.min.js" />
+    <Content Include="Login.aspx" />
+
     <Content Include="PuntoDeVenta.Master" />
     <Content Include="admin.Master" />
     <None Include="Web.Debug.config">
@@ -121,9 +127,11 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="scripts\Login.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+
     <Compile Include="admin.aspx.cs">
       <DependentUpon>admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -138,12 +146,20 @@
     <Compile Include="admin.Master.designer.cs">
       <DependentUpon>admin.Master</DependentUpon>
     </Compile>
+    <Compile Include="App-Code\SQLServer\SQLManager.cs" />
     <Compile Include="inicio.aspx.cs">
       <DependentUpon>inicio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="inicio.aspx.designer.cs">
       <DependentUpon>inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PuntoDeVenta.Master.cs">
