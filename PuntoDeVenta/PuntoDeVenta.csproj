@@ -66,15 +66,16 @@
     <Content Include="assets\jquery-easy-pie-chart\jquery.easy-pie-chart.css" />
     <Content Include="assets\jquery-easy-pie-chart\jquery.easy-pie-chart.js" />
     <Content Include="assets\jquery-knob\js\jquery.knob.js" />
+    <Content Include="Cliente.aspx" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
-
     <Content Include="css\elegant-icons-style.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\fullcalendar.css" />
     <Content Include="css\jquery-jvectormap-1.2.2.css" />
     <Content Include="css\jquery-ui-1.10.4.min.css" />
+    <Content Include="css\jquery.dataTables.min.css" />
     <Content Include="css\owl.carousel.css" />
     <Content Include="css\style-responsive.css" />
     <Content Include="css\style.css" />
@@ -82,6 +83,7 @@
     <Content Include="css\stylish-portfolio.css" />
     <Content Include="css\widgets.css" />
     <Content Include="css\xcharts.min.css" />
+    <Content Include="Empleado.aspx" />
     <Content Include="Front\css\font-awesome.min.css" />
     <Content Include="inicio.aspx" />
     <Content Include="js\bootstrap.js" />
@@ -99,9 +101,9 @@
     <Content Include="js\jquery-ui-1.10.4.min.js" />
     <Content Include="js\jquery-ui-1.9.2.custom.min.js" />
     <Content Include="js\jquery.autosize.min.js" />
+    <Content Include="js\jquery.dataTables.min.js" />
     <Content Include="js\jquery.js" />
     <Content Include="js\jquery.min.js" />
-
     <Content Include="js\jquery.nicescroll.js" />
     <Content Include="js\jquery.placeholder.min.js" />
     <Content Include="js\jquery.rateit.min.js" />
@@ -114,7 +116,6 @@
     <Content Include="js\sparklines.js" />
     <Content Include="js\xcharts.min.js" />
     <Content Include="Login.aspx" />
-
     <Content Include="PuntoDeVenta.Master" />
     <Content Include="admin.Master" />
     <None Include="Web.Debug.config">
@@ -131,7 +132,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-
     <Compile Include="admin.aspx.cs">
       <DependentUpon>admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -147,6 +147,20 @@
       <DependentUpon>admin.Master</DependentUpon>
     </Compile>
     <Compile Include="App-Code\SQLServer\SQLManager.cs" />
+    <Compile Include="Cliente.aspx.cs">
+      <DependentUpon>Cliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cliente.aspx.designer.cs">
+      <DependentUpon>Cliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado.aspx.cs">
+      <DependentUpon>Empleado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Empleado.aspx.designer.cs">
+      <DependentUpon>Empleado.aspx</DependentUpon>
+    </Compile>
     <Compile Include="inicio.aspx.cs">
       <DependentUpon>inicio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
