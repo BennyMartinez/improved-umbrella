@@ -26,9 +26,9 @@ public static class SQLManager
         SqlDataAdapter sqlDataAdapter;
         //obtenemos la string de conexion para el tipo de servidor especificado
         string connectionString = "Data Source = 148.234.130.183; Initial Catalog = PuntoVenta; User ID = jlope; Password = 123";
+      
 
-
-                 SqlConnection cnn = new SqlConnection(connectionString);//creamos una conexion a la base de datos
+        SqlConnection cnn = new SqlConnection(connectionString);//creamos una conexion a la base de datos
 
         //intentamos abrir la conexion y obtener los datos de la consulta
         try

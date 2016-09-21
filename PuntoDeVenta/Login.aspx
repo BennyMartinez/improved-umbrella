@@ -11,12 +11,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<script src="Scripts/jquery-1.9.1.js"></script>
-    <script src="Scripts/login.js" language="javascript" type="text/javascript"></script>
-    
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/login.css">
+    <script src="js/jquery-3.1.0.min.js" language="javascript" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
+     <script src="scripts/Login.js"  language="javascript" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/Login.css">
+   
+    
     <title></title>
 </head>
 <body >
@@ -30,11 +31,11 @@
                     <legend>Login</legend>
                     <div class="form-group">
                         <asp:label runat="server" for="username-email" ID="lblMail">E-mail or Username</asp:label>
-                        <asp:TextBox runat="server" ID ="txtUser" value='' placeholder="E-mail or Username" type="text" class="form-control"></asp:TextBox>
+                        <asp:TextBox runat="server" ID ="txtUser" value='' placeholder="E-mail or Username" type="text"  class="form-control" TextMode="Search"></asp:TextBox>
                     </div>
                     <div class="form-group">
                         <asp:label runat="server" for="password">Password</asp:label>
-                        <asp:TextBox runat="server" ID ="txtPass" value='' placeholder="Password" type="text" class="form-control"></asp:TextBox>
+                        <asp:TextBox runat="server" ID ="txtPass" value='' placeholder="Password" type="text" class="form-control" TextMode="Password"></asp:TextBox>
                         
                     </div>
                     <div class="form-group text-center">

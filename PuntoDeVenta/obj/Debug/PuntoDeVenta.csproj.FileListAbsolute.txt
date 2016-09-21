@@ -13,6 +13,5 @@ C:\Users\jairo_000\Desktop\improved-umbrella\PuntoDeVenta\obj\Debug\PuntoDeVenta
 C:\Users\Julian\Desktop\123\improved-umbrella\PuntoDeVenta\bin\PuntoDeVenta.dll.config
 C:\Users\Julian\Desktop\123\improved-umbrella\PuntoDeVenta\bin\PuntoDeVenta.dll
 C:\Users\Julian\Desktop\123\improved-umbrella\PuntoDeVenta\bin\PuntoDeVenta.pdb
-C:\Users\Julian\Desktop\123\improved-umbrella\PuntoDeVenta\obj\Debug\PuntoDeVenta.csprojResolveAssemblyReference.cache
 C:\Users\Julian\Desktop\123\improved-umbrella\PuntoDeVenta\obj\Debug\PuntoDeVenta.dll
 C:\Users\Julian\Desktop\123\improved-umbrella\PuntoDeVenta\obj\Debug\PuntoDeVenta.pdb
