@@ -5,11 +5,11 @@
 <html>
 <head runat="server">
 
-    <title>Admin</title>
+    <title>Administador</title>
     <!--CSS-->    
     <link href="css/style.css" rel="stylesheet"/>
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/jquery.dataTables.min.css" /> 
+    <link href="css/jquery.dataTables.min.css" rel="stylesheet"  /> 
 
     <!--JS-->
     <script src="js/jquery.js"></script>

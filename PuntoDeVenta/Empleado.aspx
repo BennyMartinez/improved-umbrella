@@ -10,7 +10,7 @@
                          <ItemTemplate><asp:LinkButton runat="server">Modificar</asp:LinkButton>&nbsp<asp:LinkButton runat="server">Eliminar</asp:LinkButton></ItemTemplate>
                      </asp:TemplateField>
                  </Columns>
-             </asp:GridView>
+             </asp:GridView>             
          </asp:Panel>
     <script>
         $(document).ready(function () {
