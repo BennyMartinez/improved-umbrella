@@ -53,7 +53,7 @@ END
 
             // si hay 1 registro  // Redirige a la Pagina
             if ( iRegistro > 0){
-               this.Response.Redirect("/inicio.aspx"); 
+               this.Response.Redirect("/Empleado.aspx"); 
             }
             else{
             }

@@ -11,11 +11,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <script src="js/jquery-3.1.0.min.js" language="javascript" type="text/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script src="js/jquery.js" language="javascript" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 
      <script src="scripts/Login.js"  language="javascript" type="text/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="css/Login.css">
+    <link rel="stylesheet" type="text/css" href="css/Login.css"/>
    
     
     <title></title>

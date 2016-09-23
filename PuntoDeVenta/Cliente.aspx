@@ -20,7 +20,6 @@
     <script>
         $(document).ready(function () {
             $("[id*=gvEmpleado]").dataTable({
-
                 "scrollX": true
             });
         });
