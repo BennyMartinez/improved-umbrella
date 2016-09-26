@@ -3,7 +3,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         <link rel="stylesheet" href="css/jquery.dataTables.min.css" /> 
-    <form runat="server">
          <asp:Panel runat="server" CssClass="col-md-offset-2">            
              <asp:GridView ID="gvEmpleado" runat="server" CellSpacing="0" Width="100%" CssClass=" display table-bordered">
                  <Columns>
@@ -14,7 +13,6 @@
                  </Columns>
              </asp:GridView>
          </asp:Panel>
-    </form>   
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="js/jquery.dataTables.min.js"></script>
     <script>
