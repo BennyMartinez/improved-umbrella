@@ -11,10 +11,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <script src="js/jquery.js" language="javascript" type="text/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-
-     <script src="scripts/Login.js"  language="javascript" type="text/javascript"></script>
+    <script src="js/Login.js"  language="javascript" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="css/Login.css"/>
    
     
