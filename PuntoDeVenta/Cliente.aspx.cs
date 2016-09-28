@@ -12,10 +12,11 @@ namespace PuntoDeVenta
     {
         protected void Page_Load(object sender, EventArgs e)
        {
-        ////    DataSet data = SQLManager.Ejecutar_Query_Con_SP("sp_getAdmon");
-        ////    this.gvEmpleado.DataSource = data;
-        ////    this.gvEmpleado.DataBind();
-        ////    gvEmpleado.HeaderRow.TableSection = TableRowSection.TableHeader;
+            DataSet data = SQLManager.Ejecutar_Query_Con_SP("sp_getAdmon");
+            this.gvCliente.DataSource = data;
+            this.gvCliente.DataBind();
+            gvCliente.HeaderRow.TableSection = TableRowSection.TableHeader;
+
         }
     }
 }
