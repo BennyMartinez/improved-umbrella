@@ -1,7 +1,6 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="PuntoDeVenta.admin" %>
 
 <!DOCTYPE html>
-
 <html>
 <head runat="server">
 

@@ -2,10 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   
    <link rel="stylesheet" type="text/css" href="css/Cliente.css"/>
-
-<%--    <form runat="server">
          <asp:Panel runat="server" CssClass="col-md-offset-2">            
              <asp:GridView ID="gvEmpleado" runat="server" CellSpacing="0" Width="100%" CssClass=" display table-bordered">
                  <Columns>
@@ -16,8 +13,6 @@
                  </Columns>
              </asp:GridView>
          </asp:Panel>
-    </form>   
- 
     <script>
         $(document).ready(function () {
             $("[id*=gvEmpleado]").dataTable({
@@ -25,7 +20,7 @@
             });
         });
 
-    </script>--%>
+    </script>
 
     <div class="row  well login-box">
        
