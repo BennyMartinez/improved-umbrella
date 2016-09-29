@@ -61,7 +61,6 @@
     <Content Include="admin.aspx" />
     <Content Include="Cliente.aspx" />
     <Content Include="css\bootstrap.min.css" />
-    <Content Include="css\Cliente.css" />
     <Content Include="css\jquery.dataTables.min.css" />
     <Content Include="css\style.css" />
     <Content Include="css\Login.css" />
@@ -100,6 +99,8 @@
       <DependentUpon>admin.Master</DependentUpon>
     </Compile>
     <Compile Include="App-Code\SQLServer\SQLManager.cs" />
+    <Compile Include="App-Code\Tools\ClienteDAO.cs" />
+    <Compile Include="App-Code\Tools\Facade.cs" />
     <Compile Include="Cliente.aspx.cs">
       <DependentUpon>Cliente.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -4938,3 +4938,9 @@ span.customSelect.changed {
 .customSelectInner {
     background:url(../img/customSelect-arrow.gif) no-repeat center right;
 }
+
+.well.login-box {
+    width:550px;
+    margin:0 auto;
+    margin-top: 20px;
+}
