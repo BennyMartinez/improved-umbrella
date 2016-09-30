@@ -28,7 +28,7 @@
             </div>
 
             <!--logo start-->
-            <a href="index.html" class="logo">Punto <span class="lite">Venta</span></a>
+            <a  class="logo">Punto<span class="lite">Venta</span></a>
             <!--logo end-->
 
             <div class="nav search-row" id="top_menu">
@@ -80,17 +80,29 @@
               <!-- sidebar menu start-->
               <ul class="sidebar-menu">                
                   <li class="active">
-                      <a class="" href="Empleado.aspx">
+                      <a class="" href="admin.aspx">
                           <%--<i class="icon_house_alt"></i>--%>
-                          <span>Empleado</span>
+                          <span>Inicio</span>
                       </a>
                   </li>
 				  <li class="sub-menu">
+                      <a href="Empleado.aspx" class="">
+     <%--                     <i class="icon_document_alt"></i>--%>
+                          <span>Empleado</span>
+                      </a>                    
+                  </li>    
+                  <li class="sub-menu">
                       <a href="Cliente.aspx" class="">
      <%--                     <i class="icon_document_alt"></i>--%>
                           <span>Cliente</span>
                       </a>                    
-                  </li>                                          
+                  </li>    
+                  <li class="sub-menu">
+                      <a href="Proveedor.aspx" class="">
+     <%--                     <i class="icon_document_alt"></i>--%>
+                          <span>Proveedor</span>
+                      </a>                    
+                  </li>                                             
               </ul>
               <!-- sidebar menu end-->
           </div>
@@ -98,8 +110,19 @@
       <!--sidebar end-->
       
   </section>
-        <br />        
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"/>
+        <br />   
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-9">     
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"/>
+             </div>
+            <div class="col-sm-1"></div>
+    </div>
   </form>
 </body>
+
+    
 </html>
+
