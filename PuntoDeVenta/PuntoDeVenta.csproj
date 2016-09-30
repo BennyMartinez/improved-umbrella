@@ -100,6 +100,7 @@
     </Compile>
     <Compile Include="App-Code\SQLServer\SQLManager.cs" />
     <Compile Include="App-Code\Tools\ClienteDAO.cs" />
+    <Compile Include="App-Code\Tools\EmpleadoDAO.cs" />
     <Compile Include="App-Code\Tools\Facade.cs" />
     <Compile Include="Cliente.aspx.cs">
       <DependentUpon>Cliente.aspx</DependentUpon>

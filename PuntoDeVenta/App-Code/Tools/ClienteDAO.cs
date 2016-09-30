@@ -8,11 +8,10 @@ namespace PuntoDeVenta.App_Code.Tools
 {
     public class ClienteDAO
     {
-        public DataSet altaCliente()
+        public void altaCliente()
         {
             // Alta Cliente 
-            DataSet alta = SQLManager.Ejecutar_Query_Con_SP("");
-            return alta;
+            SQLManager.Ejecutar_Query_Con_SP("");
         }
     }
 }

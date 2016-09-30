@@ -11,7 +11,7 @@ namespace PuntoDeVenta
 {
     public partial class Cliente : System.Web.UI.Page
     {
-        Facade fac = new Facade();
+
         protected void Page_Load(object sender, EventArgs e)
        {
          

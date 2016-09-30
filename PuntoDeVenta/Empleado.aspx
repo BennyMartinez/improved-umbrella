@@ -8,7 +8,7 @@
              <asp:GridView ID="gvEmpleado" runat="server" CellSpacing="0" Width="100%" CssClass=" display table-bordered" ClientIDMode="Static">
                  <Columns>
                      <asp:TemplateField>
-                         <HeaderTemplate><asp:LinkButton runat="server" ID="prueba" ClientIDMode="Static" data-toggle="modal" data-target="#myModal">Agregar</asp:LinkButton></HeaderTemplate>
+                         <HeaderTemplate><asp:LinkButton runat="server" ID="lAgregar" ClientIDMode="Static" data-toggle="modal" data-target="#myModal" OnClick="lAgregar_Click"><i class="glyphicon glyphicon-plus"></i></asp:LinkButton></HeaderTemplate>
                          <ItemTemplate></ItemTemplate>
                      </asp:TemplateField>
                  </Columns>
@@ -24,26 +24,29 @@
                     <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal">&times;</button>
 
-                      <h4 class="modal-title">Alta de empleado</h4>
+                      <h4 class="modal-title">Alta de Empleado</h4>
                     </div>
                     <div class="modal-body">
                             <div class="well login-box">
        
      
                      <div class="row" id="row_nombre">
-                  <div class="col-md-4 ">  <asp:TextBox runat="server" ID="txtNombreCliente" placeHolder="Nombre"   CssClass="form-control"></asp:TextBox></div>
+                  <div class="col-md-4 ">  <asp:TextBox runat="server" ID="txtNombre" placeHolder="Nombre"   CssClass="form-control"></asp:TextBox></div>
                   <div class="col-md-4 ">   <asp:TextBox runat="server" ID="txtApat" placeHolder="Apellido Paterno" CssClass="form-control"></asp:TextBox></div>
                   <div class="col-md-4 ">   <asp:TextBox runat="server" ID="txtAmat" placeHolder="Apellido Materno" CssClass="form-control"></asp:TextBox></div>
+                  <div class="col-md-4 ">   <asp:TextBox runat="server" ID="txtPW" placeHolder="Contraseña" CssClass="form-control" TextMode="Password"></asp:TextBox></div>
+                         <div class="col-md-4 "><asp:DropDownList runat="server" ID="txtTipo" CssClass="form-control"><asp:ListItem>Tipo de empleado...</asp:ListItem></asp:DropDownList></div>
+
                             </div>
             <br />   
             <div class="row " id="row_tel">
                 <div class="col-md-6">      <asp:TextBox runat="server" ID="txtTel" placeHolder="Telefono" CssClass="form-control" TextMode="Phone"></asp:TextBox></div>
-                <div class="col-md-6">      <asp:TextBox runat="server" ID="txtCel" placeHolder="Celular"  CssClass="form-control" TextMode="Phone"></asp:TextBox></div>
+                <div class="col-md-6">      <asp:TextBox runat="server" ID="txtCel" placeHolder="Celular"  CssClass="form-control" TextMode="Phone"></asp:TextBox></div>                
                 </div>
    <br />          
             <div class="row " id="row_fecha">
                 <div class="col-md-6"><asp:Label runat="server" Text="Fecha de Nacimiento"></asp:Label><asp:TextBox runat="server" ID="txtFechaNa" placeHolder="Fecha Nacimiento" CssClass="form-control" TextMode="Date"></asp:TextBox></div>
-                <div class="col-md-6"><asp:Label runat="server" Text="Fecha de Ingreso"></asp:Label><asp:TextBox runat="server" ID="txtFechaIn" placeHolder="Fecha Ingreso "   CssClass="form-control" TextMode="Date"></asp:TextBox></div>
+                <div class="col-md-6"><asp:TextBox runat="server" ID="txtCorreo" placeHolder="Correo Electronico"   CssClass="form-control" TextMode="Email"></asp:TextBox></div>
                 </div>
         <br />
             <div class=" row " id="row_direccion">
@@ -55,15 +58,15 @@
 
            <br />
             <div class="row " id="row_municipio">
-                <div class="col-md-6">      <asp:TextBox runat="server" ID="TextBox1" placeHolder="Codigo Postal" CssClass="form-control" TextMode="Number"></asp:TextBox></div>
-                <div class="col-md-6">      <asp:TextBox runat="server" ID="TextBox2" placeHolder="ID Municipio"  CssClass="form-control" TextMode="Number"></asp:TextBox></div>
+                <div class="col-md-6">      <asp:TextBox runat="server" ID="txtCP" placeHolder="Codigo Postal" CssClass="form-control" TextMode="Number"></asp:TextBox></div>
+                <div class="col-md-6">      <asp:DropDownList runat="server" ID="txtMun" CssClass="form-control"><asp:ListItem>Selecciona un municipio...</asp:ListItem></asp:DropDownList></div>
             </div>
           <br />
 
         </div>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-success" data-dismiss="modal">Agregar</button>
+                      <asp:Button runat="server" CssClass="btn btn-success" Text="Agregar" ID="btnAgregar" OnClick="btnAgregar_Click"/>
                     </div>
                   </div>      
                 </div>
