@@ -50,29 +50,42 @@
         <br />
             <div class=" row " id="row_direccion">
                 <div class="col-md-4">      <asp:TextBox runat="server" ID="txtCalle" placeHolder="Calle"     CssClass="form-control"></asp:TextBox></div>
-                <div class="col-md-4">      <asp:TextBox runat="server" ID="txtNumero" placeHolder="Numero"   CssClass="form-control" TextMode="Number"></asp:TextBox></div>
+                <div class="col-md-4">      <asp:TextBox runat="server" ID="txtNumeroCasa" placeHolder="Numero de Casa"   CssClass="form-control" TextMode="Number"></asp:TextBox></div>
                 <div class="col-md-4">      <asp:TextBox runat="server" ID="txtColonia" placeHolder="Colonia" CssClass="form-control"></asp:TextBox></div>
      
             </div>
 
            <br />
             <div class="row " id="row_municipio">
-                <div class="col-md-6">      <asp:TextBox runat="server" ID="TextBox1" placeHolder="Codigo Postal" CssClass="form-control" TextMode="Number"></asp:TextBox></div>
-                <div class="col-md-6">      <asp:TextBox runat="server" ID="TextBox2" placeHolder="ID Municipio"  CssClass="form-control" TextMode="Number"></asp:TextBox></div>
+                <div class="col-md-6">      <asp:TextBox runat="server" ID="txtCP" placeHolder="Codigo Postal" CssClass="form-control" TextMode="Number"></asp:TextBox></div>
+                <div class="col-md-6">      <asp:TextBox runat="server" ID="txtMunicipio" placeHolder="ID Municipio"  CssClass="form-control" TextMode="Number"></asp:TextBox></div>
             </div>
           <br />
 
         </div>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-success" data-dismiss="modal">Agregar</button>
+                    <asp:Button Text="Agregar" runat="server" CssClass="btn btn-success" ID="btnAltaCliente" OnClick="btnAltaCliente_Click" />
+                   
                     </div>
                   </div>      
                 </div>
               </div>
              </div>
+
+            
          </asp:Panel>
-       
+         
+    <div class="row">
+
+        <div class="col-md-4"></div>
+         <div class="col-md-5">
+             
+         </div>
+         <div class="col-md-4"></div>
+
+    </div>
+      
     <script>
         $(document).ready(function () {
             $("#gvCliente").dataTable({

@@ -537,3 +537,11 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {   /**/
 
 
 
+
+
+.well.login-box {
+    width:550px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+
