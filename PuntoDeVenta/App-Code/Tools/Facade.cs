@@ -8,13 +8,6 @@ namespace PuntoDeVenta.App_Code.Tools
 {
     public static class Facade
     {
-
-        //  poner todos los Parametros de Cliente 
-        public static void altaCliente(string Nombre, String ApePA , String ApeMa )
-        {
-            ClienteDAO clienteDao = new ClienteDAO();            
-            clienteDao.altaCliente();
-        }
         //Consulta en el DAO los empleados activos existentes
         public static DataSet obtenerEmpleado()
         {
@@ -39,5 +32,19 @@ namespace PuntoDeVenta.App_Code.Tools
             EmpleadoDAO empDAO = new EmpleadoDAO();
             return empDAO.buscarTipo();
         }
+
+        //Altas de Cliente 
+        public static void altaCliente(String Nombre, String ApePA , String ApeMa ,String Telefono,String Celular, String FechaNa, String FechaIng,String Calle,String NumeroCasa,String  Colonia, int CP,int Municipio )
+        {
+            ClienteDAO clienteDao = new ClienteDAO();            
+            clienteDao.altaCliente( Nombre, ApePA,  ApeMa,Telefono, Celular, FechaNa, FechaIng, Calle,NumeroCasa, Colonia, CP,Municipio);
+        }
+        //Bajas de Cliente ( Modificar Campo  en SP ) 
+        public static void bajaCliente()
+        {
+
+        }
     }
+
+
 }

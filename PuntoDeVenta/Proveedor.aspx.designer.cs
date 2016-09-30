@@ -10,97 +10,61 @@
 namespace PuntoDeVenta {
     
     
-    public partial class Cliente {
+    public partial class Proveedor {
         
         /// <summary>
-        /// gvCliente control.
+        /// gvProveedor control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvCliente;
+        protected global::System.Web.UI.WebControls.GridView gvProveedor;
         
         /// <summary>
-        /// txtNombreCliente control.
+        /// txtNomPro control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNombreCliente;
+        protected global::System.Web.UI.WebControls.TextBox txtNomPro;
         
         /// <summary>
-        /// txtApat control.
+        /// txtTePro control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtApat;
+        protected global::System.Web.UI.WebControls.TextBox txtTePro;
         
         /// <summary>
-        /// txtAmat control.
+        /// txtCaPro control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAmat;
+        protected global::System.Web.UI.WebControls.TextBox txtCaPro;
         
         /// <summary>
-        /// txtTel control.
+        /// txtNuPro control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTel;
+        protected global::System.Web.UI.WebControls.TextBox txtNuPro;
         
         /// <summary>
-        /// txtCel control.
+        /// txtCoPro control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCel;
-        
-        /// <summary>
-        /// txtFechaNa control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFechaNa;
-        
-        /// <summary>
-        /// txtCalle control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCalle;
-        
-        /// <summary>
-        /// txtNumeroCasa control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNumeroCasa;
-        
-        /// <summary>
-        /// txtColonia control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtColonia;
+        protected global::System.Web.UI.WebControls.TextBox txtCoPro;
         
         /// <summary>
         /// txtCP control.
@@ -112,21 +76,57 @@ namespace PuntoDeVenta {
         protected global::System.Web.UI.WebControls.TextBox txtCP;
         
         /// <summary>
-        /// ddlMunicipio control.
+        /// DropDownList1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlMunicipio;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
         
         /// <summary>
-        /// btnAltaCliente control.
+        /// txtNomCon control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAltaCliente;
+        protected global::System.Web.UI.WebControls.TextBox txtNomCon;
+        
+        /// <summary>
+        /// txtApePa control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtApePa;
+        
+        /// <summary>
+        /// txtApeMa control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtApeMa;
+        
+        /// <summary>
+        /// txtCarCon control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtCarCon;
+        
+        /// <summary>
+        /// txtCePro control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtCePro;
     }
 }

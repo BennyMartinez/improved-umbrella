@@ -14,14 +14,33 @@ namespace PuntoDeVenta
 
         protected void Page_Load(object sender, EventArgs e)
        {
-         
-            DataSet data = SQLManager.Ejecutar_Query_Con_SP("sp_getAdmon");
-            this.gvCliente.DataSource = data;
-            this.gvCliente.DataBind();
-            gvCliente.HeaderRow.TableSection = TableRowSection.TableHeader;
+            if (!IsPostBack)
+            {
+
+            // Carga Municipios DDL  
+            DataSet dsmun = SQLManager.Ejecutar_Query_Con_SP("dsmun");
+            this.ddlMunicipio.DataSource = dsmun;
+            this.ddlMunicipio.DataValueField = "ID_MUN";
+            this.ddlMunicipio.DataTextField = "NOM_MUN";
+            this.ddlMunicipio.DataBind();
+
+            }
+
+            // Carga Tabla Cliente 
+            DataSet data = SQLManager.Ejecutar_Query_Con_SP("sp_getClientes");
+
+            if (data != null)
+            {
+                this.gvCliente.DataSource = data;
+                this.gvCliente.DataBind();
+                gvCliente.HeaderRow.TableSection = TableRowSection.TableHeader;
+
+            }
+          
         }
 
-        protected void btnAltaCliente_Click(object sender, EventArgs e)
+          // Boton del Modal Alta 
+            protected void btnAltaCliente_Click(object sender, EventArgs e)
         {
             // Datos Personales 
             String Nombre = this.txtNombreCliente.Text;
@@ -29,21 +48,26 @@ namespace PuntoDeVenta
             String ApellidoMa = this.txtAmat.Text;
             // Numero Contacto
             String Telefono = this.txtTel.Text;
-            String Celular  = this.txtCel.Text;
+            String Celular = this.txtCel.Text;
             //Fecha Nacimiento
-            DateTime FechaNa = Convert.ToDateTime(this.txtFechaNa.Text);
-            DateTime FechaIng = Convert.ToDateTime(this.txtFechaIn.Text);
+            String FechaNa =  this.txtFechaNa.Text;
+            String FechaIng = DateTime.Today.ToShortDateString();
+            
             //Direccion
             String Calle = this.txtCalle.Text;
             String NumeroCasa = this.txtNumeroCasa.Text;
             String Colonia = this.txtColonia.Text;
-            String CP = this.txtCP.Text;
-            String Municipio = this.txtMunicipio.Text;
+            int CP = Convert.ToInt32(this.txtCP.Text);
+            int Municipio = Convert.ToInt32(this.ddlMunicipio.SelectedValue);
+
+            Facade.altaCliente(Nombre,ApellidoPa,ApellidoMa,Telefono,Celular,FechaNa,FechaIng,Calle,NumeroCasa,Colonia,CP,Municipio);
+
+            Response.Redirect("/Cliente.aspx");
 
 
-            // DataSet Alta = fac.altaCliente(Nombre,ApellidoPa,ApellidoMa,Telefono,Celular,FechaNa,FechaIng,Calle,NumeroCasa,Colonia,CP,Municipio);
         }
 
-     
-    }
+
+}
+
 }
