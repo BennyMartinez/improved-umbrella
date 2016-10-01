@@ -76,15 +76,6 @@ namespace PuntoDeVenta {
         protected global::System.Web.UI.WebControls.TextBox txtFechaNa;
         
         /// <summary>
-        /// txtFechaIn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFechaIn;
-        
-        /// <summary>
         /// txtCalle control.
         /// </summary>
         /// <remarks>
@@ -121,13 +112,13 @@ namespace PuntoDeVenta {
         protected global::System.Web.UI.WebControls.TextBox txtCP;
         
         /// <summary>
-        /// txtMunicipio control.
+        /// ddlMunicipio control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMunicipio;
+        protected global::System.Web.UI.WebControls.DropDownList ddlMunicipio;
         
         /// <summary>
         /// btnAltaCliente control.
