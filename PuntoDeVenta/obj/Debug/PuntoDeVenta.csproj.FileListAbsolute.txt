@@ -1,9 +1,3 @@
-C:\Users\BenignoAdrian\Documents\Visual Studio 2013\Projects\PuntoDeVenta\PuntoDeVenta\bin\PuntoDeVenta.dll.config
-C:\Users\BenignoAdrian\Documents\Visual Studio 2013\Projects\PuntoDeVenta\PuntoDeVenta\bin\PuntoDeVenta.dll
-C:\Users\BenignoAdrian\Documents\Visual Studio 2013\Projects\PuntoDeVenta\PuntoDeVenta\bin\PuntoDeVenta.pdb
-C:\Users\BenignoAdrian\Documents\Visual Studio 2013\Projects\PuntoDeVenta\PuntoDeVenta\obj\Debug\PuntoDeVenta.dll
-C:\Users\BenignoAdrian\Documents\Visual Studio 2013\Projects\PuntoDeVenta\PuntoDeVenta\obj\Debug\PuntoDeVenta.pdb
-C:\Users\BenignoAdrian\Documents\Visual Studio 2013\Projects\PuntoDeVenta\PuntoDeVenta\obj\Debug\PuntoDeVenta.csprojResolveAssemblyReference.cache
 C:\Users\Julian\Desktop\123\improved-umbrella\PuntoDeVenta\bin\PuntoDeVenta.dll.config
 C:\Users\Julian\Desktop\123\improved-umbrella\PuntoDeVenta\bin\PuntoDeVenta.dll
 C:\Users\Julian\Desktop\123\improved-umbrella\PuntoDeVenta\bin\PuntoDeVenta.pdb
@@ -22,3 +16,9 @@ C:\Users\Julian\Desktop\Punto Venta\improved-umbrella\PuntoDeVenta\obj\Debug\Pun
 C:\Users\Julian\Desktop\Punto Venta\improved-umbrella\PuntoDeVenta\bin\PuntoDeVenta.dll.config
 C:\Users\Julian\Desktop\Punto Venta\improved-umbrella\PuntoDeVenta\bin\PuntoDeVenta.dll
 C:\Users\Julian\Desktop\Punto Venta\improved-umbrella\PuntoDeVenta\bin\PuntoDeVenta.pdb
+C:\Users\BenignoAdrian\Documents\Visual Studio 2013\Projects\PuntoDeVenta\PuntoDeVenta\bin\PuntoDeVenta.dll.config
+C:\Users\BenignoAdrian\Documents\Visual Studio 2013\Projects\PuntoDeVenta\PuntoDeVenta\bin\PuntoDeVenta.dll
+C:\Users\BenignoAdrian\Documents\Visual Studio 2013\Projects\PuntoDeVenta\PuntoDeVenta\bin\PuntoDeVenta.pdb
+C:\Users\BenignoAdrian\Documents\Visual Studio 2013\Projects\PuntoDeVenta\PuntoDeVenta\obj\Debug\PuntoDeVenta.dll
+C:\Users\BenignoAdrian\Documents\Visual Studio 2013\Projects\PuntoDeVenta\PuntoDeVenta\obj\Debug\PuntoDeVenta.pdb
+C:\Users\BenignoAdrian\Documents\Visual Studio 2013\Projects\PuntoDeVenta\PuntoDeVenta\obj\Debug\PuntoDeVenta.csprojResolveAssemblyReference.cache

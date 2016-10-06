@@ -9,6 +9,7 @@
     <link href="css/style.css" rel="stylesheet"/>
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/jquery.dataTables.min.css" rel="stylesheet"  /> 
+    <link href="css/animate.css" rel="stylesheet" />
 
     <!--JS-->
     <script src="js/jquery.js"></script>

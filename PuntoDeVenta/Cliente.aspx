@@ -9,12 +9,15 @@
        <link href="css/Cliente.css" rel="stylesheet" />
 
             <h1><b>Clientes</b></h1>        
-                 <asp:GridView ID="gvCliente" runat="server" CellSpacing="0" Width="100%" CssClass="display table-bordered" ClientIDMode="Static">
+                 <asp:GridView ID="gvCliente" runat="server" Width="100%" CssClass="display table-bordered" ClientIDMode="Static">
                  <Columns>
                      <asp:TemplateField>
                          <HeaderTemplate><asp:LinkButton runat="server" ID="btnAgregar" ClientIDMode="Static" data-toggle="modal" data-target="#myModal"><i class="glyphicon glyphicon-plus"></i></asp:LinkButton></HeaderTemplate>
-                         <ItemTemplate><asp:LinkButton runat="server" ID="btnModificar"><i class="glyphicon glyphicon-pencil" ></i></asp:LinkButton></ItemTemplate>
+                         <ItemTemplate>
+                             <asp:CheckBox runat="server" />
+                             <asp:LinkButton runat="server" ID="btnModificar"><i class="glyphicon glyphicon-pencil" ></i></asp:LinkButton></ItemTemplate>
                      </asp:TemplateField>
+                     <asp:CommandField ButtonType="Button" ShowSelectButton="True" />
                  </Columns>
              </asp:GridView>             
          </asp:Panel>

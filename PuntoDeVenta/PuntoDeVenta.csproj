@@ -60,6 +60,7 @@
   <ItemGroup>
     <Content Include="admin.aspx" />
     <Content Include="Cliente.aspx" />
+    <Content Include="css\animate.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\jquery.dataTables.min.css" />
     <Content Include="css\style.css" />
